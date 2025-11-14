@@ -12,8 +12,8 @@
                     </p>
                 </div>
                 <!-- Add Button -->
-                <flux:button href="barang/create" wire:navigate variant="primary">
-                    {{ __('Tambah Barang') }}
+                <flux:button href="barang/create" dusk="tambahbarang-button" wire:navigate variant="primary">
+                    {{ __('Tambah') }}
                 </flux:button>
             </div>
         </div>
@@ -80,6 +80,7 @@
                                     wire:click="hapusBarangRusak" 
                                     variant="danger" 
                                     size="sm"
+                                    dusk="hapus-button"
                                 >
                                     {{ __('Hapus') }}
                         </flux:button>

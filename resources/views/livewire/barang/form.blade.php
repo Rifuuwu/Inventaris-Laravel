@@ -204,6 +204,7 @@
                         <flux:button 
                             type="submit" 
                             variant="primary"
+                            dusk="simpan-button"
                         >
                             @if($isMutasi)
                                 {{ __('Mutasi') }}
